@@ -22,7 +22,7 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #3a86ff; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #fb5607  ;
-  --nav-link-color: #8338ec;
+  --nav-link-color: #000;
   --nav-background-color: #ffbe0b;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #3a86ff;
@@ -94,6 +94,12 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+}
+.accent3{
+  background-color: var(--accent3-color);
+}
+.accent4{
+  background-color: var(--accent4-color);
 }
 
 p.colored {
