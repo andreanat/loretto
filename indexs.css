@@ -35,7 +35,7 @@
     display: inline-block;
 }
 nav a:hover {
-    background-color: #fe6ea3;
+    background-color: #fb5607;;
     color: whitesmoke;
 }
 nav a {
@@ -56,7 +56,7 @@ main section {
     text-align: center;
 }
 body {
-    background-color: rgb(255, 224, 193); 
+    background-color: whitesmoke; 
     font-family: var(--paragraph-font);
     font-size: 22px;
     margin: 0;
@@ -89,15 +89,15 @@ header {
     color:whitesmoke;
 }
 .msg {
-    background-color: #051923;
+    background-color: white;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6a7152;
+    box-shadow: 5px 5px 10px #ff006e;
 }
 footer {
-    background-color: #6A7152;
+    background-color: #ff006e;
     color: white;
     text-align: center;
     padding: 25px 50px;
@@ -166,7 +166,7 @@ nav {
     grid-row: 5/6;
 }
 #hero-msg h4 {
-    color: white;
+    color: #3a86ff;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -191,7 +191,7 @@ nav {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #ff006e;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
